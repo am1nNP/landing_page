@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      padding:{
+        '2size': '15px 10px'
+      }
+    },
+    fontFamily:{
+      'iransans': 'Iranian Sans'                        
+    },
   },
   plugins: [],
 }
