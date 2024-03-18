@@ -5,11 +5,17 @@ module.exports = {
     extend: {
       padding:{
         '2size': '15px 10px'
-      }
+      },
+      rotate: {
+        '30': '30deg',
+        '60': '60deg',
     },
     fontFamily:{
       'iransans': 'Iranian Sans'                        
     },
   },
-  plugins: [],
+},
+  plugins: [
+    require('tailwindcss-3d')({ legacy: true }),
+  ],
 }

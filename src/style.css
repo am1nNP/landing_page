@@ -1,0 +1,14 @@
+
+.slick-slide{
+    width: 200px !important;
+}
+
+.slick-track{
+direction: rtl !important;
+display: flex !important;
+left: 0px !important;
+}
+
+.slick-list{
+    direction: ltr !important;
+}
